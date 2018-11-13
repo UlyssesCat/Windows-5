@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEvent"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Button Name="fireBtn" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="390,63,0,0" Click="fireBtn_Click"/>
+        <TextBox Name="roomTxtBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="roomTxtBox" VerticalAlignment="Top" Width="120" Margin="10,67,0,0"/>
+        <TextBox Name="ferocityTxtBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="ferocityTxtBox" VerticalAlignment="Top" Width="120" Margin="202,63,0,0"/>
+        <TextBox Name="eventTxtBox" HorizontalAlignment="Left" Height="308" TextWrapping="Wrap" Text="eventTxtBox" VerticalAlignment="Top" Width="794" Margin="0,112,-0.4,0"/>
+
+    </Grid>
+</Window>
